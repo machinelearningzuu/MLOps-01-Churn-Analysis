@@ -1,7 +1,5 @@
 import os, sys
-import numpy as np
 import pandas as pd
-from pathlib import Path
 from dataclasses import dataclass
 from src.logger.logging import logging
 from sklearn.model_selection import train_test_split
