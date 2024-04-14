@@ -63,3 +63,38 @@ weighted avg       0.77      0.78      0.77      1409
 
 [2024-04-14 10:05:11,524] 96 root - INFO - Classification Report Written Successfully ...
 [2024-04-14 10:35:54,294] 35 root - INFO - Exception Occured in load_object function utils
+[2024-04-14 10:36:50,914] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2024-04-14 10:36:50,914] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-04-14 10:36:50,914] 96 werkzeug - INFO -  * Restarting with stat
+[2024-04-14 10:36:51,642] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-14 10:36:51,654] 96 werkzeug - INFO -  * Debugger PIN: 133-192-275
+[2024-04-14 10:36:59,164] 77 root - ERROR - Error occured: X has 20 features, but StandardScaler is expecting 19 features as input.
+[2024-04-14 10:37:13,287] 77 root - ERROR - Error occured: X has 20 features, but StandardScaler is expecting 19 features as input.
+[2024-04-14 10:38:06,878] 77 root - ERROR - Error occured: X has 20 features, but StandardScaler is expecting 19 features as input.
+[2024-04-14 10:38:07,765] 77 root - ERROR - Error occured: X has 20 features, but StandardScaler is expecting 19 features as input.
+[2024-04-14 10:38:08,239] 77 root - ERROR - Error occured: X has 20 features, but StandardScaler is expecting 19 features as input.
+[2024-04-14 10:39:11,561] 96 werkzeug - INFO -  * Detected change in '/Users/1zuu/Desktop/Desktop - Isuru’s Mac mini/ML Research/MLOps Projects/MLOps iNeuron Course/MLOps-01-Churn-Analysis/src/pipeline/prediction_pipeline.py', reloading
+[2024-04-14 10:39:11,668] 96 werkzeug - INFO -  * Restarting with stat
+[2024-04-14 10:39:12,472] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-14 10:39:12,480] 96 werkzeug - INFO -  * Debugger PIN: 133-192-275
+[2024-04-14 10:39:13,508] 96 werkzeug - INFO -  * Detected change in '/Users/1zuu/Desktop/Desktop - Isuru’s Mac mini/ML Research/MLOps Projects/MLOps iNeuron Course/MLOps-01-Churn-Analysis/src/pipeline/prediction_pipeline.py', reloading
+[2024-04-14 10:39:13,613] 96 werkzeug - INFO -  * Restarting with stat
+[2024-04-14 10:39:14,296] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-14 10:39:14,303] 96 werkzeug - INFO -  * Debugger PIN: 133-192-275
+[2024-04-14 10:39:29,305] 71 root - ERROR - Error occured: 'Churn'
+[2024-04-14 10:39:30,015] 71 root - ERROR - Error occured: 'Churn'
+[2024-04-14 10:44:00,438] 96 werkzeug - INFO -  * Detected change in '/Users/1zuu/Desktop/Desktop - Isuru’s Mac mini/ML Research/MLOps Projects/MLOps iNeuron Course/MLOps-01-Churn-Analysis/src/pipeline/prediction_pipeline.py', reloading
+[2024-04-14 10:44:00,553] 96 werkzeug - INFO -  * Restarting with stat
+[2024-04-14 10:44:01,346] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-14 10:44:01,358] 96 werkzeug - INFO -  * Debugger PIN: 133-192-275
+[2024-04-14 10:44:17,607] 96 werkzeug - INFO -  * Detected change in '/Users/1zuu/Desktop/Desktop - Isuru’s Mac mini/ML Research/MLOps Projects/MLOps iNeuron Course/MLOps-01-Churn-Analysis/src/pipeline/prediction_pipeline.py', reloading
+[2024-04-14 10:44:17,739] 96 werkzeug - INFO -  * Restarting with stat
+[2024-04-14 10:44:18,598] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-14 10:44:18,605] 96 werkzeug - INFO -  * Debugger PIN: 133-192-275
+[2024-04-14 10:44:32,491] 96 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2024 10:44:32] "POST /predict HTTP/1.1" 200 -
+[2024-04-14 10:44:42,928] 96 werkzeug - INFO -  * Detected change in '/Users/1zuu/Desktop/Desktop - Isuru’s Mac mini/ML Research/MLOps Projects/MLOps iNeuron Course/MLOps-01-Churn-Analysis/src/pipeline/prediction_pipeline.py', reloading
+[2024-04-14 10:44:43,038] 96 werkzeug - INFO -  * Restarting with stat
+[2024-04-14 10:44:43,826] 96 werkzeug - WARNING -  * Debugger is active!
+[2024-04-14 10:44:43,834] 96 werkzeug - INFO -  * Debugger PIN: 133-192-275
+[2024-04-14 10:44:51,050] 96 werkzeug - INFO - 127.0.0.1 - - [14/Apr/2024 10:44:51] "POST /predict HTTP/1.1" 200 -
