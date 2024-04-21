@@ -1,0 +1,111 @@
+[2024-04-21 10:44:59,335] 20 root - INFO - evaluation started
+[2024-04-21 10:44:59,345] 22 root - INFO - Data Ingestion Started
+[2024-04-21 10:44:59,345] 29 root - INFO - Necessary Artifacts Already Exist
+[2024-04-21 10:44:59,345] 71 root - INFO - Data Transformation Started
+[2024-04-21 10:44:59,362] 84 root - INFO - Encoding Categorical Variables
+[2024-04-21 10:44:59,373] 90 root - INFO - Scaling Numerical Variables
+[2024-04-21 10:44:59,374] 46 root - INFO - Standard Scaler Object Found. Loading ...
+[2024-04-21 10:44:59,374] 100 root - INFO - Data Transformation Completed
+[2024-04-21 10:44:59,374] 101 root - INFO - Xtrain Shape: (5634, 19)
+[2024-04-21 10:44:59,374] 102 root - INFO - Xtest Shape: (1409, 19)
+[2024-04-21 10:44:59,374] 103 root - INFO - Ytrain Shape: (5634,)
+[2024-04-21 10:44:59,374] 104 root - INFO - Ytest Shape: (1409,)
+[2024-04-21 10:44:59,375] 30 root - INFO - Model Training Initiated ...
+[2024-04-21 10:45:00,136] 44 root - INFO - Model Training Completed ...
+[2024-04-21 10:45:00,136] 45 root - INFO - Saving Model ...
+[2024-04-21 10:45:00,144] 79 root - INFO - model has register
+[2024-04-21 10:45:00,144] 82 root - INFO - Tracking Url Type Store: file
+[2024-04-21 10:45:00,232] 56 root - INFO - Plot Confusion Matrix
+[2024-04-21 10:45:00,448] 58 root - INFO - Confusion Matrix Plotted Successfully ...
+
+[2024-04-21 10:45:00,448] 60 root - INFO - Writing Classification Report
+[2024-04-21 10:45:00,451] 62 root - INFO - 
+-----------  Classification Report -----------
+              precision    recall  f1-score   support
+
+           0       0.82      0.89      0.85      1032
+           1       0.60      0.45      0.51       377
+
+    accuracy                           0.77      1409
+   macro avg       0.71      0.67      0.68      1409
+weighted avg       0.76      0.77      0.76      1409
+=====================================================
+
+[2024-04-21 10:45:00,451] 63 root - INFO - Classification Report Written Successfully ...
+[2024-04-21 10:45:00,451] 65 root - INFO - Calculating Accuracy Score and F1 Score
+[2024-04-21 10:45:00,451] 68 root - INFO - Accuracy Score: 0.7707594038325053
+[2024-04-21 10:45:00,451] 69 root - INFO - F1 Score: 0.7595747004519657
+[2024-04-21 11:05:02,749] 20 root - INFO - evaluation started
+[2024-04-21 11:05:02,760] 22 root - INFO - Data Ingestion Started
+[2024-04-21 11:05:02,760] 29 root - INFO - Necessary Artifacts Already Exist
+[2024-04-21 11:05:02,760] 71 root - INFO - Data Transformation Started
+[2024-04-21 11:05:02,779] 84 root - INFO - Encoding Categorical Variables
+[2024-04-21 11:05:02,790] 90 root - INFO - Scaling Numerical Variables
+[2024-04-21 11:05:02,791] 46 root - INFO - Standard Scaler Object Found. Loading ...
+[2024-04-21 11:05:02,792] 100 root - INFO - Data Transformation Completed
+[2024-04-21 11:05:02,792] 101 root - INFO - Xtrain Shape: (5634, 19)
+[2024-04-21 11:05:02,792] 102 root - INFO - Xtest Shape: (1409, 19)
+[2024-04-21 11:05:02,792] 103 root - INFO - Ytrain Shape: (5634,)
+[2024-04-21 11:05:02,792] 104 root - INFO - Ytest Shape: (1409,)
+[2024-04-21 11:05:02,792] 30 root - INFO - Model Training Initiated ...
+[2024-04-21 11:05:03,571] 44 root - INFO - Model Training Completed ...
+[2024-04-21 11:05:03,572] 45 root - INFO - Saving Model ...
+[2024-04-21 11:05:03,584] 79 root - INFO - model has register
+[2024-04-21 11:05:03,585] 82 root - INFO - Tracking Url Type Store: file
+[2024-04-21 11:05:03,676] 56 root - INFO - Plot Confusion Matrix
+[2024-04-21 11:05:03,900] 58 root - INFO - Confusion Matrix Plotted Successfully ...
+
+[2024-04-21 11:05:03,900] 60 root - INFO - Writing Classification Report
+[2024-04-21 11:05:03,903] 62 root - INFO - 
+-----------  Classification Report -----------
+              precision    recall  f1-score   support
+
+           0       0.82      0.89      0.85      1032
+           1       0.60      0.45      0.51       377
+
+    accuracy                           0.77      1409
+   macro avg       0.71      0.67      0.68      1409
+weighted avg       0.76      0.77      0.76      1409
+=====================================================
+
+[2024-04-21 11:05:03,903] 63 root - INFO - Classification Report Written Successfully ...
+[2024-04-21 11:05:03,903] 65 root - INFO - Calculating Accuracy Score and F1 Score
+[2024-04-21 11:05:03,904] 68 root - INFO - Accuracy Score: 0.7707594038325053
+[2024-04-21 11:05:03,904] 69 root - INFO - F1 Score: 0.7595747004519657
+[2024-04-21 11:05:41,132] 20 root - INFO - evaluation started
+[2024-04-21 11:05:41,147] 22 root - INFO - Data Ingestion Started
+[2024-04-21 11:05:41,147] 29 root - INFO - Necessary Artifacts Already Exist
+[2024-04-21 11:05:41,147] 71 root - INFO - Data Transformation Started
+[2024-04-21 11:05:41,165] 84 root - INFO - Encoding Categorical Variables
+[2024-04-21 11:05:41,177] 90 root - INFO - Scaling Numerical Variables
+[2024-04-21 11:05:41,178] 46 root - INFO - Standard Scaler Object Found. Loading ...
+[2024-04-21 11:05:41,178] 100 root - INFO - Data Transformation Completed
+[2024-04-21 11:05:41,178] 101 root - INFO - Xtrain Shape: (5634, 19)
+[2024-04-21 11:05:41,178] 102 root - INFO - Xtest Shape: (1409, 19)
+[2024-04-21 11:05:41,178] 103 root - INFO - Ytrain Shape: (5634,)
+[2024-04-21 11:05:41,178] 104 root - INFO - Ytest Shape: (1409,)
+[2024-04-21 11:05:41,178] 30 root - INFO - Model Training Initiated ...
+[2024-04-21 11:05:41,965] 44 root - INFO - Model Training Completed ...
+[2024-04-21 11:05:41,965] 45 root - INFO - Saving Model ...
+[2024-04-21 11:05:41,974] 78 root - INFO - model has register
+[2024-04-21 11:05:41,974] 81 root - INFO - Tracking Url Type Store: file
+[2024-04-21 11:05:42,050] 55 root - INFO - Plot Confusion Matrix
+[2024-04-21 11:05:42,192] 57 root - INFO - Confusion Matrix Plotted Successfully ...
+
+[2024-04-21 11:05:42,192] 59 root - INFO - Writing Classification Report
+[2024-04-21 11:05:42,195] 61 root - INFO - 
+-----------  Classification Report -----------
+              precision    recall  f1-score   support
+
+           0       0.82      0.89      0.85      1032
+           1       0.60      0.45      0.51       377
+
+    accuracy                           0.77      1409
+   macro avg       0.71      0.67      0.68      1409
+weighted avg       0.76      0.77      0.76      1409
+=====================================================
+
+[2024-04-21 11:05:42,195] 62 root - INFO - Classification Report Written Successfully ...
+[2024-04-21 11:05:42,195] 64 root - INFO - Calculating Accuracy Score and F1 Score
+[2024-04-21 11:05:42,196] 67 root - INFO - Accuracy Score: 0.7707594038325053
+[2024-04-21 11:05:42,196] 68 root - INFO - F1 Score: 0.7595747004519657

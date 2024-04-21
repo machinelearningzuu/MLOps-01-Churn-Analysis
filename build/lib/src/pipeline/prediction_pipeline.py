@@ -52,10 +52,14 @@ class PredictionPipeline:
         try:
             data = self.custom_data_config.create_custom_data(data)
             data = self.encode_cat_vars(data, self.le_dict)
+            del data['Churn']
+
             data = self.scale_num_vars(data, self.scaler)
             prediction = self.model.predict(data)
             prediction = int(prediction.squeeze())
+            prediction = 'Yes' if prediction == 1 else 'No'
             return prediction
+        
         except customexception as e:
             logging.error(f"Error occured: {str(e)}")
             sys.exit(1)
